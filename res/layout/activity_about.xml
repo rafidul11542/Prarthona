@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#68DCF6DD"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:text="আমাদের পরিচিতি"
+        android:background="@drawable/forget3"
+        android:textColor="#47701A"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/forget3"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/sanzida"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:textColor="#47701A"
+            android:text="Umme Sanzida Afroz"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal"
+            android:textColor="#47701A"
+            android:text="182-15-11505"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:textStyle="normal"
+            android:textColor="#47701A"
+            android:text="https://www.researchgate.net/profile/Umme-Sunzida-Afroz"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/forget3"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/rafid"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:textColor="#47701A"
+            android:text="Md. Rafidul Hasan Khan"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal"
+            android:textColor="#47701A"
+            android:text="182-15-11542"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="normal"
+            android:textColor="#47701A"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="https://www.researchgate.net/profile/Md-Rafidul-Hasan-Khan"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

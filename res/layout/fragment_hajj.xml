@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Hajj">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/description"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:text="হজের ফযীলত"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="হজ আরবি শব্দ। হজ শব্দের আভিধানিক অর্থ ইচ্ছা বা সংকল্প করা। হজ ইসলাম ধর্মের পঞ্চস্তম্ভের চতুর্থ স্তম্ভ। ইসলাম ধর্মাবলম্বী অর্থাৎ মুসলমানদের জন্য হজ একটি গুরুত্বপূর্ণ ইবাদত। শারীরিক ও আর্থিক দিক থেকে সক্ষম হলেই প্রত্যেক মুসলমান নর-নারীর জন্য জীবনে একবার হজ সম্পাদন করা ফরজ বা আবশ্যিক। আরবি জিলহজ মাসের ৮ থেকে ১২ তারিখ হজর জন্য নির্ধারিত সময়। হজ পালনের জন্য বর্তমান সৌদী আরবের মক্কা নগরীর কাবাঘর, সন্নিহিত মিনা, আরাফাত প্রভৃতি স্থানে গমন এবং অবস্থান আবশ্যক। এটি মুসলমানদের পৃথিবীর সবচেয়ে বড় বাৎসরিক তীর্থযাত্রা।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="মহান আল্লাহ তায়ালা পবিত্র কোরআন মাজীদে বলেন, এবং সামর্থ্যবান মানুষের ওপর আল্লাহর জন্য বায়তুল্লাহর হজ করা ফরজ। আর যে ব্যক্তি কুফরী করে, তবে আল্লাহ তো নিশ্চয় সৃষ্টিকূল থেকে অমুখাপেক্ষী। (সূরা- আলে ইমরান, আয়াত-৯৭)"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="নবী সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন, [আল্লাহ তায়ালা তোমাদের ওপর হজ ফরজ করেছেন। সুতরাং তোমরা হজ আদায় করো।]"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="তাই প্রত্যেক মুসলিমের উচিত হজ ফরজ হওয়ার শর্তগুলো পূর্ণ হলেই অনতিবিলম্বে হজ আদায় করা। কেননা প্রত্যেকটি ফরজ আমল অনতিবিলম্বে আদায় করা বাধ্যতামূলক।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="আবু হোরায়রা (রা.) এক হাদিসে বর্ণনা করেছেন যে, হজরত মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম বলেছেন, [যে ব্যক্তি আল্লাহর জন্য হজ করে এবং অশ্লীল ও গুনাহের কাজ থেকে বেঁচে থাকে, সে হজ থেকে এমন অবস্থায় ফিরে আসে যেন মাত্র মায়ের গর্ভ থেকে বের হয়েছে। অর্থাৎ সদ্য জন্ম নেয়া শিশুর মত নিষ্পাপ।]"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>

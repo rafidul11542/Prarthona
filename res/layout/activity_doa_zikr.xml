@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#68DCF6DD"
+    tools:context=".DoaZikr">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#68DCF6DD"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/forget3"
+                android:onClick="btnKalema"
+                android:text="কালেমা"
+                android:textColor="#47701A"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@drawable/forget3"
+                android:text="নামাজ"
+                android:onClick="btnNamaj"
+                android:textColor="#47701A"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#47701A"
+                android:text="সাওম"
+                android:onClick="btnSaom"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/forget3"/>
+
+            <Button
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#47701A"
+                android:text="জাকাত"
+                android:onClick="btnJakat"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/forget3"/>
+
+            <Button
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#47701A"
+                android:text="হজ্জ"
+                android:onClick="btnHajj"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/forget3"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#68DCF6DD"
+    tools:context=".MainPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/forget3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/datumprikaz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_20sdp"
+                android:hint="Date"
+                android:textColor="#47701A"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold"
+                android:text="নামাজের সময়সূচি"
+                android:textColor="#47701A"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <Spinner
+                android:id="@+id/spnAmol"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:entries="@array/Salat_Waqt"
+                android:layout_weight="1"
+                android:background="@drawable/clear">
+            </Spinner>
+                <TextView
+                    android:id="@+id/tvSpn"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:hint="00.00"
+                    android:background="@drawable/clear"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_height="@dimen/_125sdp"
+        android:layout_margin="@dimen/_10sdp"
+        card_view:cardElevation="@dimen/_10sdp"
+        card_view:cardCornerRadius="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/back6"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/info_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:textStyle="italic"
+                android:textColor="#0C630F"
+                android:textSize="@dimen/_16sdp"
+                android:fontFamily="cursive"
+                android:text="খোশ আমদেদ মাহে রমজান"/>
+
+            <Button
+                android:layout_height="@dimen/_40sdp"
+                android:layout_width="@dimen/_200sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="#47701A"
+                android:text="রমজানের সময়সূচী"
+                android:onClick="btnTimeTable"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/forget2"/>
+
+            <Button
+                android:layout_height="@dimen/_40sdp"
+                android:layout_width="@dimen/_200sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="#47701A"
+                android:text="রমজানের দোয়া সমূহ"
+                android:onClick="btnRmDoa"
+                android:layout_gravity="left"
+                android:layout_marginTop="@dimen/_11sdp"
+                android:layout_marginLeft="@dimen/_46sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:background="@drawable/forget3"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="@dimen/_8sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/txthadis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C89CBD77"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#47701A"
+                android:text="হাদিস"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="@dimen/_8sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp">
+            <TextView
+                android:id="@+id/txtAmol"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C89CBD77"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#47701A"
+                android:text="আমল"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="@dimen/_8sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp">
+            <TextView
+                android:id="@+id/txtSthomvo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C89CBD77"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#47701A"
+                android:text="স্তম্ভ"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="@dimen/_8sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp">
+            <TextView
+                android:id="@+id/txtQues"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C89CBD77"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="#47701A"
+                android:text="প্রশ্ন"/>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

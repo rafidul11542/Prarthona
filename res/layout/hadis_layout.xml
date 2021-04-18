@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/description"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvHadisTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:hint="Title"/>
+
+    <TextView
+        android:id="@+id/tvHadisDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAmolTitle"
+        android:layout_margin="@dimen/_5sdp"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/black"
+        android:hint="Description" />
+
+</LinearLayout>

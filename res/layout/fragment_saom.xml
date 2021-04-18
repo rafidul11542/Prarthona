@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Saom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/description"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:text="রোজার ফযীলত"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="রোজা ফারসি শব্দ এবং সাউম صوم ‌ বা সিয়াম আরবি শব্দ। ইসলাম ধর্মের পাঁচটি মূল স্তম্ভের তৃতীয় স্তম্ভ হচ্ছে রোজা। সূর্যোদ্বয় থেকে সূর্যাস্ত পর্যন্ত সকল প্রকার খাবার ও পানীয় এবং যাবতীয় ভোগ-বিলাস থেকেও বিরত থাকার নাম রোজা। ইসলামের বিধান অনুযায়ী, প্রতিটি সুস্থ মুসলমানের জন্য রমজান মাসের প্রতি দিন রোজা রাখা ফরজ فرض যার অর্থ অবশ্যই পালনীয়। রোজা কেবল উম্মাতে মোহাম্মাদীর ওপরই ফরজ না, এর আগের উম্মতদের ওপরও তা ফরজ ছিলো।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="মহান আল্লাহ পবিত্র কোরআনে বলেন, [হে মুমিনগণ, তোমাদের ওপর সিয়াম ফরজ করা হয়েছে , যেভাবে ফরজ করা হয়েছিল তোমাদের পূর্ববর্তীদের ওপর। যাতে তোমরা তাকওয়া অবলম্বন কর।](সূরা বাকারা ২, আয়াত-১৮৪)"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="অন্য আয়াতে মহান আল্লাহ পাক বলেন, [রমজান মাসই হলো সে মাস, যাতে নাজিল করা হয়েছে কোরআন, যা মানুষের জন্য হেদায়েত এবং সত্যপথ যাত্রীদের জন্য সুষ্পষ্ট পথ নির্দেশনা আর ন্যায় ও অন্যায়ের মাঝে পার্থক্য বিধানকারী। কাজেই তোমাদের মধ্যে যে লোক এ মাসটি পাবে, সে এ মাসের রোজা রাখবে] (সূরা বাকারা: ১৮৬) (সূরা বাকারা, আয়াত-১৮৬)"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="রমজান মাসে সাওম পালন করা ফরজে আইন। যদি কোনো মুসলমান রমজান মাসে ইচ্ছাকৃতভাবে রোজা পরিত্যাগ করে, তাহলে সে বড় গুনাহগার ও দ্বীনের মৌলিক বিধান লঙ্ঘনকারী এবং ঈমান-ইসলামের খেয়ানতকারী হিসেবে পরিগণিত হবে। ইচ্ছাকৃতভাবে রোজা ভঙ্গকারীদের জন্য হাদিস শরিফে কঠিন শাস্তির কথা বলা হয়েছে ।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="আবু উমামা (রা.) বলেন, আমি রাসূলুল্লাহকে (সা.) বলতে শুনেছি, তিনি বলেন, আমি ঘুমিয়ে ছিলাম। স্বপ্নে দেখলাম আমার কাছে দুইজন ব্যক্তি আসলেন। তারা আমার বাহু ধরে আমাকে দূর্গম এক পাহাড়ে নিয়ে এলেন। এরপর আমাকে বললেন, আপনি পাহাড়ের ওপরে উঠুন। আমি বললাম, আমি উঠতে পারবো না। তারা বললো, আমরা আপনাকে সাহায্য করবো। আমি ওপরে উঠলাম। যখন আমি পাহাড়ের সমতল ভূমিতে পৌঁছালাম, হঠাৎ ভয়ংকর আওয়াজ শুনতে পেলাম। আমি তাদের জিজ্ঞেস করলাম, এটা কিসের আওয়াজ? তারা বললেন, এটা জাহান্নামীদের আর্তনাদ। তারা আমাকে নিয়ে এগিয়ে চলল। হঠাৎ কিছুলোক দেখতে পেলাম, তাদেরকে পেশী দ্বারা ঝুলিয়ে রাখা হয়েছে এবং তাদের মুখের দুই প্রান্ত ছিঁড়ে ফেলা হয়েছে। তা থেকে তাদের রক্ত ঝরছে। আমি বললাম, এরা কারা? তারা বলল, যারা ইফতারের পূর্বেই রোজা ভেঙ্গে ফেলতো তারা এরা।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="আবু হুরায়রা (রা.) থেকে বর্ণনা এসেছে যে, রাসূলুল্লাহ (সা.) বলেন, [মানুষের প্রতিটি আমলের প্রতিদান বৃদ্ধি করা হয়। একটি নেকির সওয়াব দশগুণ থেকে সাতশ’ গুণ পর্যন্ত হতে পারে।]"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="মহান আল্লাহ তায়ালা বলেন, [কিন্তু রোজার বিষয়টা আলাদা। কেননা তা আমার জন্য এবং আমি নিজেই এর বিনিময় প্রদান করবো। বান্দা একমাত্র আমার জন্য নিজের প্রবৃত্তিকে নিয়ন্ত্রণ করেছে এবং পানাহার পরিত্যাগ করেছে।]"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

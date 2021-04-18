@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_homeicon"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item2"
+        android:title="পাঁচ স্তম্ভ"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="রমজানের সময়সূচি"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item4"
+        android:title="রমজানের দোয়াসমূহ"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item5"
+        android:title="আমল"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item6"
+        android:title="প্রশ্নোত্তর"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item7"
+        android:title="সাইন আউট"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item8"
+        android:title="বাহির"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item9"
+        android:title="পরিচিতি"
+        app:showAsAction="never"/>
+
+
+</menu>

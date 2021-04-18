@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Jakat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/description"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:text="জাকাতের ফযীলত"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="যাকাত আরবি শব্দ। যার অর্থ হচ্ছে পরিশুদ্ধ করে আরো আরবি زكاة ألمال‎, সম্পদের জাকাত। জাকাত ইসলাম ধর্মের পঞ্চস্তম্ভের গুরুত্বপূর্ণ একটি স্তম্ভ। ইসলাম কেবল একটি ধর্ম নয়, এটি একটি জীবনব্যবস্থা। এতে রয়েছে সমাজনীতি,পররাষ্ট্রনীতি, যুদ্ধনীতি, অর্থনীতি। জাকাত হলো ইসলামী অর্থনীতির একটি বুনিয়াদ।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="প্রত্যেক স্বাধীন, পূর্ণবয়স্ক মুসলমান নর-নারীকে প্রতি বছর স্বীয় আয় ও সম্পত্তির একটি নির্দিষ্ট অংশ জাকাত দিতে হয়। ইসলামের পঞ্চস্তম্ভের মধ্যে হজ এবং জাকাতই শুধুমাত্র শর্তসাপেক্ষ যে, তা সম্পদশালীদের জন্য ফরজ বা আবশ্যিক হয়। পবিত্র ধর্মগ্রন্থ কোরআনে জাকাত শব্দের উল্লেখ এসেছে ৩২ বার। পবিত্র কোরআনে নামাজের পরেই সবচেয়ে বেশি গুরুত্ব পূর্ন বিষয় হিসাবে উল্লেখ্য এই জাকাত।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="জাকাত শব্দের অর্থ পরিচ্ছন্নতা। নিজের আয় থেকে একটি নির্দিষ্ট অংশ গরীব দু:খী মানুষকে দান করে নিজের আত্মার পরিশুদ্ধিই হলো জাকাত। শরীয়তের ভাষ্যমতে, বাৎসরিক আয়ের ২.৫% অংশ মহান আল্লাহের পথে দান করার নামই জাকাত। এতে সম্পদ হালাল এবং আত্মার পরিশুদ্ধি হয়।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="রাসূল (সা.) এর মতে, [যে ব্যক্তি জাকাত দিল তার থেকে যেন শয়তান নির্মূল হয়ে গেল।] এক বছর যাবত নির্দিষ্ট পরিমাণ(নিসাব পরিমাণ) সম্পদের মালিক থাকলে তাকে মোট অর্থের শতকরা ২.৫% হারে জাকাত পরিশোধ করতে হবে। আর জাকাত পাওয়ার জন্য যোগ্য ব্যক্তিদের নিয়ে শরিয়তে বিশেষ বিধান রয়েছে। শরীয়ত মোতাবেক যারা জাকাত পাবার যোগ্য, তারা হলেন–"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="ফকির (যার নিসাব পরিমাণ সম্পদ নেই), মিসকিন বা নিঃস্ব ব্যক্তি (যার কাছে একবেলা খাবারও নেই), ঋণগ্রস্ত মুসলিম, অসহায় মুসাফির, জাকাত উত্তোলন, সংরক্ষণ ও বন্টনের কার্যে নিয়োজিত ব্যক্তিবর্গ, ইসলাম গ্রহণ করতে ইচ্ছুক অমুসলিম, নতুন মুসলিম যার ঈমান এখনো পরিপক্ক হয়নি, ক্রীতদাস/বন্দী মুক্তি।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="তবে লক্ষ্য রাখতে হবে, ফকির বা মিসকিন যেন মুসলমান হয় এবং প্রয়োজনের অতিরিক্ত নিসাব পরিমাণ সম্পদের মালিক না হয়।"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:text="জাকাত বান্দাকে স্রষ্টার নিকটে আসতে সহায়তা করে। সমাজে একে অপরের প্রতি সহানুভূতি বৃদ্ধি ও ভ্রাতৃত্ববোধ গঠনে অনন্যসাধারণ ভূমিকা পালন করে জাকাত।"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</ScrollView>

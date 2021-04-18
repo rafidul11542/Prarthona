@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Kalema">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/description"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:text="কালেমার ফযীলত"
+            android:textStyle="bold"
+            android:textSize="@dimen/_13sdp"
+            android:textColor="@color/black"
+            android:layout_margin="@dimen/_5sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:text="ইসলামের পঞ্চস্তম্ভের প্রথম ও সবচেয়ে গুরুত্বপূর্ণ স্তম্ভ হচ্ছে কালেমা। একজন মুসলমান হওয়ার পূর্ব শর্ত হচ্ছে কালেমা [আল্লাহ ছাড়া কোনো উপাস্য নাই এবং মুহাম্মাদ (সা.) তার রাসূল] মুখে বলা ও অন্তরে বিশ্বাস করা। ইসলামের চার কালেমায় বিশ্বাস স্থাপন করে ঈমান আনা কালেমার মূল উদ্দেশ্যে। মহান আল্লাহ তায়ালা পৃথিবীতে যতো নবী রাসূলগণ প্রেরণ করেছেন, তাদের সকলের দাওয়াতের মূল বিষয় ছিলো তাওহীদ। আর এই তাওহীদের ওপর বিশ্বাস প্রতিস্থাপনের নামই হলো ঈমান।"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:text="একজন মুসলমানের কাছে সবচেয়ে বড় সম্পদ তার ঈমান। যা তার প্রাণের চেয়েও প্রিয়। ঈমানদার মৃত্যুকে আলিঙ্গন করতে পারে, কিন্তু কোনোভাবেই ঈমানকে ছাড়তে পারে না। ঈমান শুধু মুখে কালেমা পড়ার নাম নয়, ইসলামকে তার সকল অপরিহার্য অনুষঙ্গসহ মনেপ্রাণে মানা ও বিশ্বাস করা। ঈমান হলো অটল ও দৃঢ় বিশ্বাসের নাম।" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_11sdp"
+            android:textColor="@color/black"
+            android:text="কোনো বিষয়কে শুধু মহান আল্লাহ ও তার রাসূলের প্রতি আস্থার ভিত্তিতে মেনে নেয়ার নাম ঈমান। পবিত্র কোরআন মাজীদে মহান আল্লাহ তায়ালা সাক্ষ্য দেন যে, নিশ্চয়ই তিনি ছাড়া কোনো ইলাহ নেই, ফেরেশতাগণ এবং জ্ঞানীগণও; আল্লাহ ন্যায়নীতিতে প্রতিষ্ঠিত, তিনি ছাড়া কোনো ইলাহ নেই, তিনি পরাক্রমশালী, প্রজ্ঞাময়। আর এটাই কালেমার মূল বিষয়।"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
